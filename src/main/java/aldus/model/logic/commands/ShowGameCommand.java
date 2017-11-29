@@ -14,7 +14,7 @@ public class ShowGameCommand implements ActionCommand {
         String id = request.getParameter("id");
         Game game = ShowGameLogic.getGame(Integer.parseInt(id));
         if(game == null){
-            request.getSession().setAttribute("incorrectId", MessageManager.getProperty("message.incorrectgameid"));
+            request.setAttribute("incorrectId", MessageManager.getProperty("message.incorrectgameid"));
             return ConfigurationManager.getProperty("path.page.games");
         }
         request.getSession().setAttribute("game",game);

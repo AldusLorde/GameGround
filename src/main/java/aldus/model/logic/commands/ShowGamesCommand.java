@@ -12,8 +12,7 @@ public class ShowGamesCommand implements ActionCommand {
     @Override
     public String execute(HttpServletRequest request) throws SQLException {
         List<Game> list = ShowGameLogic.getAllGames();
-        request.getSession().setAttribute("gamesList",list);
-        request.getSession().removeAttribute("game");
+        request.setAttribute("gamesList",list);
         return ConfigurationManager.getProperty("path.page.games");
     }
 }

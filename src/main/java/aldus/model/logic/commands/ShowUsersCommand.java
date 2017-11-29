@@ -15,8 +15,7 @@ public class ShowUsersCommand implements ActionCommand {
     public String execute(HttpServletRequest request) throws SQLException {
         String page = null;
         List<User> list = ShowUsersLogic.getAllUsers();
-        HttpSession session = request.getSession();
-        session.setAttribute("users",list);
+        request.setAttribute("users",list);
         page = ConfigurationManager.getProperty("path.page.users");
         return page;
     }

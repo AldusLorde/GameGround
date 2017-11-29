@@ -12,12 +12,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OrderDAO extends AbstractDAO<Integer, Order> {
-    private static String SQL_SELECT_ALL = "SELECT orders.idOrders, users.name, games.name, orders.price, orders.accepted  FROM orders INNER JOIN games ON gameId = games.id INNER  JOIN users ON userId=users.id ";
-    private static String SQL_SELECT_BY_ID = SQL_SELECT_ALL + " WHERE idOrders = ?";
-    private static String SQL_SELECT_BY_ACCEPTION = SQL_SELECT_ALL + " WHERE accepted = ?";
-    private static String SQL_UPDATE = "UPDATE orders SET accepted = ? WHERE idOrders = ?";
-    private static String SQL_DELETE = "DELETE FROM orders WHERE idOrders = ?";
-    private static String SQL_CREATE = "INSERT INTO orders(userId,gameId,price,accepted) VALUES(?,?,?,?)";
+
+    private final static String SQL_SELECT_ALL = "SELECT orders.idOrders, users.name, orders.price, orders.accepted, orders.time  FROM orders INNER  JOIN users ON userId=users.id ";
+    private final static String SQL_SELECT_BY_ID = SQL_SELECT_ALL + " WHERE idOrders = ?";
+    private final static String SQL_SELECT_BY_ACCEPTION = SQL_SELECT_ALL + " WHERE accepted = ?";
+    private final static String SQL_UPDATE = "UPDATE orders SET accepted = ? WHERE idOrders = ?";
+    private final static String SQL_DELETE = "DELETE FROM orders WHERE idOrders = ?";
+    private final static String SQL_CREATE = "INSERT INTO orders(userId,price, time) VALUES(?,?,?)";
+    private final static String SQL_SUB_CREATE = "INSERT INTO order_game(idOrder, idGame) VALUES(?,?)";
+    private final static String SQL_DUB_SELECT = "SELECT * FROM order_game WHERE idOrder = ?";
+    private final static String SQL_SUB_DELETE = "DELETE FROM order_game WHERE idOrder = ?";
 
     public OrderDAO(Connection connection) {
         super(connection);
@@ -74,9 +78,12 @@ public class OrderDAO extends AbstractDAO<Integer, Order> {
     @Override
     public boolean deleteById(Integer id) throws SQLException {
         PreparedStatement preparedStatement =connection.prepareStatement(SQL_DELETE);
+        PreparedStatement preparedStatement1 = connection.prepareStatement(SQL_SUB_DELETE);
         preparedStatement.setInt(1,id);
-        boolean b = preparedStatement.execute();
+        preparedStatement.setInt(1,id);
+        boolean b = preparedStatement.execute() && preparedStatement1.execute();
         preparedStatement.close();
+        preparedStatement1.close();
         return b;
     }
 
@@ -89,8 +96,8 @@ public class OrderDAO extends AbstractDAO<Integer, Order> {
     public boolean create(Order entity) throws SQLException {
         PreparedStatement preparedStatement = connection.prepareStatement(SQL_CREATE);
         preparedStatement.setInt(1,entity.getUser().getId());
-        preparedStatement.setInt(2,entity.getGame().getId());
-        preparedStatement.setInt(3,entity.getPrice());
+        preparedStatement.setInt(2,entity.getPrice());
+        preparedStatement.setTimestamp(3,entity.getTime());
         boolean c = preparedStatement.execute();
         closeStatement(preparedStatement);
         return c;
@@ -100,8 +107,21 @@ public class OrderDAO extends AbstractDAO<Integer, Order> {
         User user = new UserDAO(connection).findById(set.getInt("userId"));
         if (user==null) throw new SQLException("User wasn`t found");
         Game game = new GameDAO(connection).findById(set.getInt("gameId"));
-        if (game == null) throw new SQLException("Game wasn`t found");
-        Order order = new Order(set.getInt("idOrders"),user,game,set.getInt("price"),set.getBoolean("accepted"));
+        PreparedStatement preparedStatement = connection.prepareStatement(SQL_DUB_SELECT);
+        preparedStatement.setInt(1,set.getInt("idOrders"));
+        ResultSet resultSet = preparedStatement.executeQuery();
+        ArrayList<Integer> list = new ArrayList<>();
+        while (resultSet.next()){
+            list.add(resultSet.getInt("idGame"));
+        }
+        closeStatement(preparedStatement);
+        closeResultSet(resultSet);
+        Game[] games = new Game[list.size()];
+        GameDAO gameDAO = new GameDAO(connection);
+        for(int i = 0; i<list.size();i++){
+            games[i]=gameDAO.findById(list.get(i));
+        }
+        Order order = new Order(user,games,set.getInt("price"),set.getBoolean("accepted"),set.getTimestamp("time"));
         return order;
     }
 }

@@ -26,14 +26,13 @@ public class CreateGameCommand implements ActionCommand {
         if(!CreateGameLogic.checkGame(game)) game = CreateGameLogic.createGame(game);
         else page = null;
         if(game == null){
-            request.getSession().setAttribute("creationError", MessageManager.getProperty("message.creationerror"));
+            request.setAttribute("creationError", MessageManager.getProperty("message.creationerror"));
             page = ConfigurationManager.getProperty("path.page.createGame");
         }
         else
         {
-            request.getSession().removeAttribute("creationError");
-            page = ConfigurationManager.getProperty("path.page.gamePage")
-                    .concat("?id=".concat(String.valueOf(game.getId())));
+            page = ConfigurationManager.getProperty("path.page.gamePage");
+            request.setAttribute("id", game.getId());
         }
         return page;
     }

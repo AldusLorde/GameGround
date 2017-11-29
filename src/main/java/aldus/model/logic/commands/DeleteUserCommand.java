@@ -19,7 +19,7 @@ public class DeleteUserCommand implements ActionCommand {
         page = ConfigurationManager.getProperty("path.page.users");
         List<User> list;
         list = ShowUsersLogic.getAllUsers();
-        request.getSession().setAttribute("users",list);
+        request.setAttribute("users",list);
         return page;
     }
 }

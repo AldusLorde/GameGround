@@ -16,4 +16,13 @@ public class ShowUsersLogic {
         connection.close();
         return list;
     }
+
+    public static User getUser(int id) throws SQLException {
+        User user = null;
+        Connection connection = ConnectionGetter.getConnection();
+        UserDAO userDAO = new UserDAO(connection);
+        user = userDAO.findById(id);
+        connection.close();
+        return user;
+    }
 }

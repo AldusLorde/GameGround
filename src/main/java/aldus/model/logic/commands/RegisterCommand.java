@@ -19,14 +19,14 @@ public class RegisterCommand implements ActionCommand {
         String name = request.getParameter("name");
         if(RegisterLogic.checkName(name)){
             page = ConfigurationManager.getProperty("path.page.register");
-            request.getSession().setAttribute("registerError", MessageManager.getProperty("message.registererror.login"));
+            request.setAttribute("registerError", MessageManager.getProperty("message.registererror.login"));
             return page;
         }
         String password = request.getParameter("password");
         String email = request.getParameter("email");
         if(RegisterLogic.checkEmail(email)){
             page = ConfigurationManager.getProperty("path.page.register");
-            request.getSession().setAttribute("registerError", MessageManager.getProperty("message.registererror.email"));
+            request.setAttribute("registerError", MessageManager.getProperty("message.registererror.email"));
             return page;
         }
         Date birth = Date.valueOf(request.getParameter("birthDay"));
@@ -47,7 +47,6 @@ public class RegisterCommand implements ActionCommand {
         }
         User user = RegisterLogic.createUser(name,password,email,role,birth);
         request.getSession().setAttribute("user",user);
-        request.getSession().removeAttribute("registerError");
         return page = ConfigurationManager.getProperty("path.page.main");
     }
 }

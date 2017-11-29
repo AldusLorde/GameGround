@@ -39,13 +39,12 @@ public class Controller extends HttpServlet {
         ActionCommand command = factory.defineCommand(request);
         page = command.execute(request);
         if(page!=null){
-            response.setStatus(303);
-            response.sendRedirect(page);
+            request.getRequestDispatcher(page).forward(request,response);
         }
         else {
             page = ConfigurationManager.getProperty("path.page.index");
-            request.getSession().setAttribute("nullPage", MessageManager.getProperty("message.nullpage"));
-            response.sendRedirect(page);
+            request.setAttribute("nullPage", MessageManager.getProperty("message.nullpage"));
+            request.getRequestDispatcher(page).forward(request,response);
         }
     }
 }

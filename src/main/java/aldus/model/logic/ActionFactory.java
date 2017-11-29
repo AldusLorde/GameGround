@@ -1,13 +1,11 @@
 package aldus.model.logic;
 
-import aldus.controller.SessionRequestContent;
 import aldus.model.logic.commands.ActionCommand;
 import aldus.model.logic.commands.CommandEnum;
 import aldus.model.logic.commands.EmptyCommand;
 import aldus.resource.MessageManager;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
 
 public class ActionFactory {
     public ActionCommand defineCommand(HttpServletRequest request){

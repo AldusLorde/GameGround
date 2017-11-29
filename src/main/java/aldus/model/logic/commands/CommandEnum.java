@@ -35,6 +35,21 @@ public enum CommandEnum {
         {
             command = new CreateGameCommand();
         }
+    },
+    SHOWGAME{
+        {
+            command = new ShowGameCommand();
+        }
+    },
+    SHOWGAMES{
+        {
+            command = new ShowGamesCommand();
+        }
+    },
+    SHOWUSER{
+        {
+            command = new ShowUserCommand();
+        }
     }
     ;
 

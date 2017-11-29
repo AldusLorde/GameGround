@@ -22,11 +22,10 @@ public class LogInCommand implements ActionCommand {
             User user = CommonLogic.getUser(login,password);
             request.getSession().setAttribute("user",user);
             CommonLogic.updateLastActivity(user,new Timestamp(System.currentTimeMillis()));
-            request.getSession().removeAttribute("errorLoginPassMessage");
             page = ConfigurationManager.getProperty("path.page.main");
         }
         else{
-            request.getSession().setAttribute("errorLoginPassMessage", MessageManager.getProperty("message.loginerror"));
+            request.setAttribute("errorLoginPassMessage", MessageManager.getProperty("message.loginerror"));
             page = ConfigurationManager.getProperty("path.page.login");
         }
         return page;
