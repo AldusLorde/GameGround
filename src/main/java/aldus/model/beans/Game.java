@@ -7,11 +7,11 @@ public class Game {
     private String name;
     private int year;
     private String description;
-    private int price;
+    private double price;
     private int discount;
     private String image;
 
-    public Game(Developer developer, Genre genre, String name, int year, String description, int price, int discount, String image) {
+    public Game(Developer developer, Genre genre, String name, int year, String description, double price, int discount, String image) {
         this.developer = developer;
         this.genre = genre;
         this.name = name;
@@ -22,7 +22,7 @@ public class Game {
         this.image = image;
     }
 
-    public Game(int id, Developer developer, Genre genre, String name, int year, String description, int price, int discount, String image) {
+    public Game(int id, Developer developer, Genre genre, String name, int year, String description, double price, int discount, String image) {
         this(developer,genre,name,year,description,price,discount,image);
         this.id = id;
     }
@@ -78,11 +78,11 @@ public class Game {
         this.description = description;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 

@@ -32,35 +32,50 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CodeIris Favorites" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ShowGameCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ShowGameCommand.java">
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowUserCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ShowUserCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="1075">
+              <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1519#1520#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/CommandEnum.java">
+      <file leaf-file-name="OrderDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/OrderDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="400">
+              <caret line="99" column="9" lean-forward="false" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+              <folding>
+                <marker date="1512022394657" expanded="true" signature="414:542" ph="SELECT order... orders" />
+                <marker date="1512022394657" expanded="true" signature="615:634" ph="SELECT order... orders" />
+                <marker date="1512022394657" expanded="true" signature="713:732" ph="SELECT order... orders" />
+                <marker date="1512022394657" expanded="true" signature="781:830" ph="UPDATE order... " />
+                <marker date="1512022394657" expanded="true" signature="879:916" ph="DELETE FROM " />
+                <marker date="1512022394657" expanded="true" signature="965:1017" ph="INSERT INTO orders... " />
+                <marker date="1512022394657" expanded="true" signature="1174:1216" ph="SELECT * FRO... order_game" />
+                <marker date="1512022394657" expanded="true" signature="1269:1309" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteUserCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/DeleteUserCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -69,75 +84,49 @@
       <file leaf-file-name="GameDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/GameDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1511727850669" expanded="true" signature="502:750" ph="SELECT games... games" />
-                <marker date="1511727850669" expanded="true" signature="824:839" ph="SELECT games... games" />
-                <marker date="1511727850669" expanded="true" signature="825:839" ph="SELECT games... games" />
-                <marker date="1511727850669" expanded="true" signature="911:924" ph="SELECT games... games" />
-                <marker date="1511727850669" expanded="true" signature="999:1017" ph="SELECT games... games" />
-                <marker date="1511727850669" expanded="true" signature="1096:1118" ph="SELECT games... games" />
-                <marker date="1511727850669" expanded="true" signature="1192:1207" ph="SELECT games... games" />
-                <marker date="1511727850669" expanded="true" signature="1255:1386" ph="UPDATE games... " />
-                <marker date="1511727850669" expanded="true" signature="1435:1465" ph="DELETE FROM " />
-                <marker date="1511727850669" expanded="true" signature="1514:1625" ph="INSERT INTO games... " />
+                <marker date="1511992804951" expanded="true" signature="502:750" ph="SELECT games... games" />
+                <marker date="1511992804951" expanded="true" signature="824:839" ph="SELECT games... games" />
+                <marker date="1511992804951" expanded="true" signature="825:839" ph="SELECT games... games" />
+                <marker date="1511992804951" expanded="true" signature="911:924" ph="SELECT games... games" />
+                <marker date="1511992804951" expanded="true" signature="999:1017" ph="SELECT games... games" />
+                <marker date="1511992804951" expanded="true" signature="1096:1118" ph="SELECT games... games" />
+                <marker date="1511992804951" expanded="true" signature="1192:1207" ph="SELECT games... games" />
+                <marker date="1511992804951" expanded="true" signature="1255:1386" ph="UPDATE games... " />
+                <marker date="1511992804951" expanded="true" signature="1435:1465" ph="DELETE FROM " />
+                <marker date="1511992804951" expanded="true" signature="1514:1625" ph="INSERT INTO games... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Game.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="e#1411#1412#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Order.java">
+      <file leaf-file-name="Genre.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Genre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding>
-                <element signature="e#1402#1403#0" expanded="true" />
-                <element signature="e#1429#1430#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1504#1505#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="50">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/OrderDAO.java">
+      <file leaf-file-name="CreateNewOrderCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/CreateNewOrderCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="123" column="116" lean-forward="true" selection-start-line="123" selection-start-column="116" selection-end-line="123" selection-end-column="116" />
-              <folding>
-                <marker date="1511973599228" expanded="true" signature="414:542" ph="SELECT order... orders" />
-                <marker date="1511973599228" expanded="true" signature="615:634" ph="SELECT order... orders" />
-                <marker date="1511973599228" expanded="true" signature="713:732" ph="SELECT order... orders" />
-                <marker date="1511973599228" expanded="true" signature="781:830" ph="UPDATE order... " />
-                <marker date="1511973599228" expanded="true" signature="879:916" ph="DELETE FROM " />
-                <marker date="1511973599228" expanded="true" signature="965:1017" ph="INSERT INTO orders... " />
-                <marker date="1511973599228" expanded="true" signature="1174:1216" ph="SELECT * FRO... order_game" />
-                <marker date="1511973599228" expanded="true" signature="1269:1309" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PutGameToListCommand.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/PutGameToListCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="425">
+              <caret line="26" column="73" lean-forward="false" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,19 +134,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenreDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/GenreDAO.java">
+      <file leaf-file-name="CreateNewOrderLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/CreateNewOrderLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1511725387119" expanded="true" signature="346:366" ph="SELECT * FRO... genres" />
-                <marker date="1511725387119" expanded="true" signature="432:445" ph="SELECT * FRO... genres" />
-                <marker date="1511725387119" expanded="true" signature="514:530" ph="SELECT * FRO... genres" />
-                <marker date="1511725387119" expanded="true" signature="573:613" ph="UPDATE genre... " />
-                <marker date="1511725387119" expanded="true" signature="656:687" ph="DELETE FROM " />
-                <marker date="1511725387119" expanded="true" signature="730:765" ph="INSERT INTO genres... " />
+                <element signature="e#1393#1394#0" expanded="true" />
+                <element signature="e#1420#1421#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/RegisterCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,12 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/jsp/register.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/error/users.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/jsp/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/DeleteUserLogic.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ActionCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/toCreationCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/LogOutCommand.java" />
@@ -203,7 +202,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/260c647b-e3b7-4df4-a4e0-9761d89cd34a/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/createGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/beans/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aldus/model/beans/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/beans/Genre.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/beans/Developer.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/CreateGame.java" />
@@ -213,32 +211,39 @@
         <option value="$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/DeveloperDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/GenreDAO.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/260c647b-e3b7-4df4-a4e0-9761d89cd34a/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/GameDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/CreateGameLogic.java" />
         <option value="$PROJECT_DIR$/web/jsp/users.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/ShowGameLogic.java" />
         <option value="$PROJECT_DIR$/web/jsp/gamePage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/ShowGamesLogic.java" />
         <option value="$PROJECT_DIR$/web/jsp/games.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/controller/ResponseContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/controller/QueryContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/CreateGameCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/DeleteUserCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/LogInCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/RegisterCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ShowGamesCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ShowUsersCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/ShowUsersLogic.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
         <option value="$PROJECT_DIR$/web/jsp/user.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ShowGameCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ShowUserCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/CommandEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aldus/model/beans/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/OrderDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/PutGameToListCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/PushGameFromTheList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ShowOrderBoxCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/PushGameFromTheBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/PutGameToBoxCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/CreateNewOrderCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/CreateNewOrderLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/model/beans/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/model/beans/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/GameDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/DeleteUserCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/OrderDAO.java" />
       </list>
     </option>
   </component>
@@ -268,7 +273,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1612" />
@@ -290,9 +295,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -435,11 +440,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -740,46 +745,53 @@
       <workItem from="1511773300369" duration="1837000" />
       <workItem from="1511910730735" duration="3735000" />
       <workItem from="1511915336344" duration="751000" />
-      <workItem from="1511969678853" duration="4074000" />
+      <workItem from="1511969678853" duration="15329000" />
+      <workItem from="1511988215539" duration="819000" />
+      <workItem from="1511989082775" duration="2386000" />
+      <workItem from="1512021954684" duration="425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167074000" />
+    <option name="totallyTimeSpent" value="181959000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47261906" sideWeight="0.50216216" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.0776583" sideWeight="0.5054054" order="7" side_tool="true" content_ui="tabs" x="496" y="477" width="928" height="368" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33027026" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08810811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08810811" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48809522" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7432432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0776583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4107143" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0776583" sideWeight="0.4945946" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2454054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33027026" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Class Cloud" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3452381" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -832,120 +844,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">com</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">oracle</node>
-            <node x="" y="">java</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">org</node>
-            <node x="" y="">javafx</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">aldus</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="217.0" y="254.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/aldus.controller.Controller">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>aldus.controller.Controller</OriginalElement>
-          <nodes>
-            <node x="" y="">javax.servlet.annotation.WebServlet</node>
-            <node x="" y="">javax.servlet.ServletConfig</node>
-            <node x="" y="">javax.servlet.http.HttpServlet</node>
-            <node x="" y="">javax.servlet.GenericServlet</node>
-            <node x="" y="">javax.servlet.Servlet</node>
-            <node x="" y="">aldus.controller.Controller</node>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="272.0" y="169.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/aldus.model.logic.commands.ActionCommand">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>aldus.model.logic.commands.ActionCommand</OriginalElement>
-          <nodes>
-            <node x="" y="">aldus.model.logic.commands.ActionCommand</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="104.0" y="24.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/aldus.model.logic.commands.CommandEnum">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>aldus.model.logic.commands.CommandEnum</OriginalElement>
-          <nodes>
-            <node x="113.5" y="97.0">java.lang.Enum</node>
-            <node x="71.5" y="194.0">aldus.model.logic.commands.CommandEnum</node>
-            <node x="180.0" y="0.0">java.lang.Comparable</node>
-            <node x="0.0" y="0.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.lang.Enum" target="java.io.Serializable">
-              <point x="-29.5" y="-23.5" />
-              <point x="143.0" y="72.0" />
-              <point x="80.0" y="72.0" />
-              <point x="0.0" y="23.5" />
-            </edge>
-            <edge source="java.lang.Enum" target="java.lang.Comparable">
-              <point x="29.5" y="-23.5" />
-              <point x="202.0" y="72.0" />
-              <point x="265.0" y="72.0" />
-              <point x="0.0" y="23.5" />
-            </edge>
-            <edge source="aldus.model.logic.commands.CommandEnum" target="java.lang.Enum">
-              <point x="0.0" y="-23.5" />
-              <point x="0.0" y="23.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-324.0" y="-21.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/aldus.model.logic.commands.DeleteUserCommand">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1118,14 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ActionCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/CreateGameCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1134,42 +1024,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/DeleteUserCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/EmptyCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/LogOutCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/LogInCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/RegisterCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1222,14 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/user.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1246,20 +1096,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ShowUserCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1287,64 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/GameDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1511727850669" expanded="true" signature="502:750" ph="SELECT games... games" />
-            <marker date="1511727850669" expanded="true" signature="824:839" ph="SELECT games... games" />
-            <marker date="1511727850669" expanded="true" signature="825:839" ph="SELECT games... games" />
-            <marker date="1511727850669" expanded="true" signature="911:924" ph="SELECT games... games" />
-            <marker date="1511727850669" expanded="true" signature="999:1017" ph="SELECT games... games" />
-            <marker date="1511727850669" expanded="true" signature="1096:1118" ph="SELECT games... games" />
-            <marker date="1511727850669" expanded="true" signature="1192:1207" ph="SELECT games... games" />
-            <marker date="1511727850669" expanded="true" signature="1255:1386" ph="UPDATE games... " />
-            <marker date="1511727850669" expanded="true" signature="1435:1465" ph="DELETE FROM " />
-            <marker date="1511727850669" expanded="true" signature="1514:1625" ph="INSERT INTO games... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#1411#1412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2965">
@@ -1364,29 +1148,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/OrderDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="123" column="116" lean-forward="true" selection-start-line="123" selection-start-column="116" selection-end-line="123" selection-end-column="116" />
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ShowOrderBoxCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
-            <marker date="1511973599228" expanded="true" signature="414:542" ph="SELECT order... orders" />
-            <marker date="1511973599228" expanded="true" signature="615:634" ph="SELECT order... orders" />
-            <marker date="1511973599228" expanded="true" signature="713:732" ph="SELECT order... orders" />
-            <marker date="1511973599228" expanded="true" signature="781:830" ph="UPDATE order... " />
-            <marker date="1511973599228" expanded="true" signature="879:916" ph="DELETE FROM " />
-            <marker date="1511973599228" expanded="true" signature="965:1017" ph="INSERT INTO orders... " />
-            <marker date="1511973599228" expanded="true" signature="1174:1216" ph="SELECT * FRO... order_game" />
-            <marker date="1511973599228" expanded="true" signature="1269:1309" ph="DELETE FROM " />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/PutGameToListCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/PopGameFromTheBoxCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/LogInCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/LogOutCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/PutGameToBoxCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/RegisterCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/CreateNewOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="73" lean-forward="false" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/CreateNewOrderLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding>
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/ActionCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/beans/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/GameDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511992804951" expanded="true" signature="502:750" ph="SELECT games... games" />
+            <marker date="1511992804951" expanded="true" signature="824:839" ph="SELECT games... games" />
+            <marker date="1511992804951" expanded="true" signature="825:839" ph="SELECT games... games" />
+            <marker date="1511992804951" expanded="true" signature="911:924" ph="SELECT games... games" />
+            <marker date="1511992804951" expanded="true" signature="999:1017" ph="SELECT games... games" />
+            <marker date="1511992804951" expanded="true" signature="1096:1118" ph="SELECT games... games" />
+            <marker date="1511992804951" expanded="true" signature="1192:1207" ph="SELECT games... games" />
+            <marker date="1511992804951" expanded="true" signature="1255:1386" ph="UPDATE games... " />
+            <marker date="1511992804951" expanded="true" signature="1435:1465" ph="DELETE FROM " />
+            <marker date="1511992804951" expanded="true" signature="1514:1625" ph="INSERT INTO games... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/model/logic/commands/DeleteUserCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aldus/dataBaseActions/DAO/OrderDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="99" column="9" lean-forward="false" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+          <folding>
+            <marker date="1512022394657" expanded="true" signature="414:542" ph="SELECT order... orders" />
+            <marker date="1512022394657" expanded="true" signature="615:634" ph="SELECT order... orders" />
+            <marker date="1512022394657" expanded="true" signature="713:732" ph="SELECT order... orders" />
+            <marker date="1512022394657" expanded="true" signature="781:830" ph="UPDATE order... " />
+            <marker date="1512022394657" expanded="true" signature="879:916" ph="DELETE FROM " />
+            <marker date="1512022394657" expanded="true" signature="965:1017" ph="INSERT INTO orders... " />
+            <marker date="1512022394657" expanded="true" signature="1174:1216" ph="SELECT * FRO... order_game" />
+            <marker date="1512022394657" expanded="true" signature="1269:1309" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -1450,6 +1385,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -6,14 +6,14 @@ public class Order {
     private int idOrder= 0;
     private User user;
     private Game[] games;
-    private int price;
+    private double price;
     private boolean accepted;
     private Timestamp time;
 
     public Order() {
     }
 
-    public Order(User user, Game[] game, int price, boolean accepted, Timestamp time){
+    public Order(User user, Game[] game, double price, boolean accepted, Timestamp time){
         this.user = user;
         this.games = game;
         this.price = price;
@@ -21,7 +21,7 @@ public class Order {
         this.time = time;
     }
 
-    public Order(int idOrder, User user, Game[] game, int price, boolean accepted, Timestamp time) {
+    public Order(int idOrder, User user, Game[] game, double price, boolean accepted, Timestamp time) {
         this(user,game,price,accepted, time);
         this.idOrder = idOrder;
 
@@ -51,11 +51,11 @@ public class Order {
         this.games = game;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 

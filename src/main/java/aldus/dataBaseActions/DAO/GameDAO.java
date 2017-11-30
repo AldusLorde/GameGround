@@ -108,7 +108,7 @@ public class GameDAO extends AbstractDAO<Integer, Game> {
         preparedStatement.setString(3,entity.getName());
         preparedStatement.setInt(4,entity.getYear());
         preparedStatement.setString(5,entity.getDescription());
-        preparedStatement.setInt(6,entity.getPrice());
+        preparedStatement.setDouble(6,entity.getPrice());
         preparedStatement.setInt(7,entity.getDiscount());
         preparedStatement.setString(8,entity.getImage());
         preparedStatement.setInt(9,id);
@@ -148,7 +148,7 @@ public class GameDAO extends AbstractDAO<Integer, Game> {
         preparedStatement.setString(3,entity.getName());
         preparedStatement.setInt(4,entity.getYear());
         preparedStatement.setString(5,entity.getDescription());
-        preparedStatement.setInt(6,entity.getPrice());
+        preparedStatement.setDouble(6,entity.getPrice());
         preparedStatement.setInt(7,entity.getDiscount());
         preparedStatement.setString(8,entity.getImage());
         boolean c = preparedStatement.execute();
@@ -164,7 +164,7 @@ public class GameDAO extends AbstractDAO<Integer, Game> {
         return new Game(resultSet.getInt("id"),developer
                 ,genre,resultSet.getString("name")
                 ,resultSet.getDate("year").toLocalDate().getYear()
-                ,resultSet.getString("description"),resultSet.getInt("price")
+                ,resultSet.getString("description"),resultSet.getDouble("price")
                 ,resultSet.getInt("discount"),resultSet.getString("image"));
     }
 

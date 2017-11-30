@@ -96,7 +96,8 @@ public class OrderDAO extends AbstractDAO<Integer, Order> {
     public boolean create(Order entity) throws SQLException {
         PreparedStatement preparedStatement = connection.prepareStatement(SQL_CREATE);
         preparedStatement.setInt(1,entity.getUser().getId());
-        preparedStatement.setInt(2,entity.getPrice());
+        preparedStatement.setDouble(2,entity.getPrice());
+        з
         preparedStatement.setTimestamp(3,entity.getTime());
         boolean c = preparedStatement.execute();
         closeStatement(preparedStatement);
