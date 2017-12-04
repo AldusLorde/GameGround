@@ -1,6 +1,7 @@
 package aldus.model.beans;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 public class Order {
     private int idOrder= 0;
@@ -10,7 +11,7 @@ public class Order {
     private boolean accepted;
     private Timestamp time;
 
-    public Order() {
+    public Order(User user, Game[] games, Double price, boolean accepted, Timestamp time) {
     }
 
     public Order(User user, Game[] game, double price, boolean accepted, Timestamp time){
