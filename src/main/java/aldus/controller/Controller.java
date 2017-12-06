@@ -34,7 +34,6 @@ public class Controller extends HttpServlet {
     }
     private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, SQLException {
         String page = null;
-        System.out.println(getServletContext());
         ActionFactory factory = new ActionFactory();
         ActionCommand command = factory.defineCommand(request);
         page = command.execute(request);

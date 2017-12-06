@@ -32,7 +32,7 @@ public class CreateGameCommand implements ActionCommand {
         else
         {
             page = ConfigurationManager.getProperty("path.page.gamePage");
-            request.setAttribute("id", game.getId());
+            request.setAttribute("game", game);
         }
         return page;
     }

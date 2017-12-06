@@ -17,7 +17,7 @@ public class ShowGameCommand implements ActionCommand {
             request.setAttribute("incorrectId", MessageManager.getProperty("message.incorrectgameid"));
             return ConfigurationManager.getProperty("path.page.games");
         }
-        request.getSession().setAttribute("game",game);
+        request.setAttribute("game",game);
         return ConfigurationManager.getProperty("path.page.gamePage");
     }
 }

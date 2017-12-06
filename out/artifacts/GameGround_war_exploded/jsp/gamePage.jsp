@@ -28,8 +28,8 @@
             </thead>
             <tbody>
             <tr>
-                <td>${game.developer}</td>
-                <td>${game.genre}</td>
+                <td>${game.developer.developer}</td>
+                <td>${game.genre.genre}</td>
                 <td>${game.year}</td>
                 <td>${game.price}</td>
                 <td>${game.discount}</td>

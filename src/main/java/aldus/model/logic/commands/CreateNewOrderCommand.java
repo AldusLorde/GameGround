@@ -5,7 +5,7 @@ import aldus.model.beans.Order;
 import aldus.model.beans.User;
 import aldus.model.logic.CreateNewOrderLogic;
 import aldus.model.logic.ShowGameLogic;
-import aldus.model.logic.ShowUsersLogic;
+import aldus.resource.ConfigurationManager;
 
 import javax.servlet.http.HttpServletRequest;
 import java.sql.SQLException;
@@ -30,7 +30,9 @@ public class CreateNewOrderCommand implements ActionCommand {
             double price = CreateNewOrderLogic.calculatePrice(array);
             Order order = new Order(user,array,price,false,new Timestamp(System.currentTimeMillis()));
             CreateNewOrderLogic.createOrder(order);
-        }
+            request.setAttribute("order",order);
+            page = ConfigurationManager.getProperty("path.page.orderPage");
+        } else page = ConfigurationManager.getProperty("path.page.games");
         return page;
     }
 }

@@ -21,5 +21,10 @@
         <input type="hidden" value="showusers" name="command">
         <input type="submit" value="Show Users">
     </form>
+    <br>
+    <form action="/controller" method="post">
+        <input type="hidden" value="showGames" name="command">
+        <input type="submit" value="Show Games">
+    </form>
 </body>
 </html>

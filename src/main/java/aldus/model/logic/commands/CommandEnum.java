@@ -50,6 +50,11 @@ public enum CommandEnum {
         {
             command = new ShowUserCommand();
         }
+    },
+    SHOWORDERBOX{
+        {
+            command = new ShowOrderBoxCommand();
+        }
     }
     ;
 

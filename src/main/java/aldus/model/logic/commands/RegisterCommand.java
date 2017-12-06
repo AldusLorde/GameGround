@@ -46,7 +46,7 @@ public class RegisterCommand implements ActionCommand {
                 break;
         }
         User user = RegisterLogic.createUser(name,password,email,role,birth);
-        request.getSession().setAttribute("user",user);
+        request.setAttribute("user",user);
         return page = ConfigurationManager.getProperty("path.page.main");
     }
 }

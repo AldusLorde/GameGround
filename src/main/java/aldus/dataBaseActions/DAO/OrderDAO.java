@@ -18,6 +18,7 @@ public class OrderDAO extends AbstractDAO<Integer, Order> {
     private final static String SQL_SELECT_ID = "SELECT idOrders FROM orders WHERE userId = ? AND time = ?";
     private final static String SQL_SELECT_BY_ACCEPTION = SQL_SELECT_ALL + " WHERE accepted = ?";
     private final static String SQL_UPDATE = "UPDATE orders SET accepted = ? WHERE idOrders = ?";
+    private final static String SQL_ACCEPT = "UPDATE orders SET accepted = true WHERE idOrders = ?";
     private final static String SQL_DELETE = "DELETE FROM orders WHERE idOrders = ?";
     private final static String SQL_CREATE = "INSERT INTO orders(userId,price, time) VALUES(?,?,?)";
     private final static String SQL_SUB_CREATE = "INSERT INTO order_game(idOrder, idGame) VALUES(?,?)";
@@ -88,6 +89,14 @@ public class OrderDAO extends AbstractDAO<Integer, Order> {
     @Override
     public boolean deleteByEntity(Order entity) throws SQLException {
         return deleteById(entity.getIdOrder());
+    }
+
+    public boolean accept(int id) throws SQLException {
+        PreparedStatement preparedStatement = connection.prepareStatement(SQL_ACCEPT);
+        preparedStatement.setInt(1,id);
+        boolean b = preparedStatement.execute();
+        preparedStatement.close();
+        return b;
     }
 
     @Override

@@ -18,7 +18,7 @@ import java.util.List;
 public class GameDAO extends AbstractDAO<Integer, Game> {
     private final static String SQL_SELECT_ALL = "SELECT games.id,games.name,games.description,games.price,games.discount,games.year, genres.genre, developers.developer, games.image FROM games INNER JOIN developers ON developers.id = games.developerId INNER JOIN genres ON genres.id = games.genreId";
     private final static String SQL_SELECT_BY_NAME = SQL_SELECT_ALL + " WHERE name = ?";
-    private final static String SQL_SELECT_BY_ID = SQL_SELECT_ALL + " WHERE id = ?";
+    private final static String SQL_SELECT_BY_ID = SQL_SELECT_ALL + " WHERE games.id = ?";
     private final static String SQL_SELECT_BY_GENRE = SQL_SELECT_ALL + " WHERE genreId = ?";
     private final static String SQL_SELECT_BY_DEVELOPER = SQL_SELECT_ALL + " WHERE developerId = ?";
     private final static String SQL_SELECT_BY_YEAR = SQL_SELECT_ALL + " WHERE year = ?";

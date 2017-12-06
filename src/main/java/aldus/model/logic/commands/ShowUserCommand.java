@@ -19,7 +19,8 @@ public class ShowUserCommand implements ActionCommand {
             page = ConfigurationManager.getProperty("path.page.users");
         }
         else {
-            request.setAttribute("user",user);
+            request.setAttribute("userL",user);
+            page = ConfigurationManager.getProperty("path.page.user");
         }
         return page;
     }

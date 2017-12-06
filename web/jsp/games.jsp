@@ -33,9 +33,11 @@
                     <td>
                         <img src="${el.image}">
                     </td>
-                    <td>${el.name}</td>
-                    <td>${el.developer}</td>
-                    <td>${el.genre}</td>
+                    <td>
+                        <a href="/controller?command=showGame&id=${el.id}">${el.name}</a>
+                    </td>
+                    <td>${el.developer.developer}</td>
+                    <td>${el.genre.genre}</td>
                     <td>${el.year}</td>
                     <td>${el.price}</td>
                     <td>${el.discount}</td>

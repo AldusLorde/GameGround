@@ -26,10 +26,12 @@
             </tr>
         </thead>
         <tbody>
-           <c:forEach items="${users.rows}" var="user">
+           <c:forEach items="${users}" var="user">
                <tr>
                    <td>${user.id}</td>
-                   <td>${user.name}</td>
+                   <td>
+                       <a href="/controller?command=showUser&id=${user.id}">${user.name}</a>
+                   </td>
                    <td>${user.password}</td>
                    <td>${user.role}</td>
                    <td>${user.email}</td>
